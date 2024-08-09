@@ -1,0 +1,155 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+}
+
+
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+
+}
+
+.sidebar {
+    background-color:
+        black;
+    width: 330px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+
+}
+
+.main-content {
+    background-color: blue;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.main-player {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.nav {
+    background-color: #1D1D1D;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.nav-option {
+    opacity: 0.7;
+    line-height: 2.5rem;
+    padding: 0.3rem 1.75rem;
+}
+
+.nav-option:hover {
+
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+
+
+}
+
+
+.nav-option a {
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.75rem;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lib-option img {
+    height: 1.5rem;
+    width: 1.25rem;
+}
+
+.icons {
+    font-size: 1.25rem;
+
+    display: flex;
+
+}
+
+.icons i {
+    opacity: 0.75;
+    margin-right: 1rem;
+}
+
+.icons i:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.box {
+    background-color: #1F1F1F;
+    height: 7.3rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.5rem 0;
+    padding: 0.25rem 0.5rem 1.25rem 1.25rem;
+    ;
+
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    opacity: 0.86;
+}
+
+.badge {
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+
+}

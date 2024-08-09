@@ -25,10 +25,11 @@ body {
 }
 
 .main-content {
-    background-color: blue;
+    background-color: #1D1D1D;
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .main-player {
@@ -152,4 +153,132 @@ a {
     height: 2rem;
     width: fit-content;
 
+}
+
+
+.badge:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    /* transform: scale(1.03);
+    height: 2.15rem; */
+    background-color: rgb(206, 206, 206);
+    transition: 0.2s;
+}
+
+.badge-download {
+    background-color: #000;
+    color: #fff;
+}
+
+.badge-download:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+.fa-regular .fa-user.nav-item{
+    
+
+}
+
+.sticky-nav {
+    position: sticky;
+    /* background-color: #121212; */
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons {
+    margin-top: 10px;
+}
+
+.sticky-nav-icons .nav-img {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin-left: 0.75rem;
+    /* height: 10px; */
+
+}
+
+.sticky-nav-icons .nav-img:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 0.2s;
+    background-color: #292929;
+    color: #000;
+}
+
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 1.2rem;
+}
+
+@media (max-width:1000px) {
+    .sticky-nav .hide {
+        display: none;
+    }
+}
+
+.card {
+
+    background-color: #2423238a;
+    width: 170px;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin-left: 1.75rem;
+    margin-top: 1rem;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #242323;
+    transition: 0.3s;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 30%;
+    width: 90%;
+    border-top: 1px solid white;
+    opacity: 0.4;
 }
